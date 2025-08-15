@@ -1,5 +1,5 @@
 # Instituto Semear
-O site Instituto Semear foi um projeto do qual realizei na faculdade. Ele tem como objetivo ser um website destinado para ONGs com design moderno e com design responsivo
+O site Instituto Semear é um caso de estudo e foi um projeto do qual realizei na faculdade. Ele tem como objetivo ser um protótipo de website destinado para ONGs com design moderno e com design responsivo
 
 🖥️  Website: 
 🖌️  [Design no Figma](https://www.figma.com/design/tQTgJ4G5QqQZTM0gbOIx2z/Prot%C3%B3tipo---Instituto-Semear?node-id=0-1&t=QUCRG97BSbFsBlC7-1)
