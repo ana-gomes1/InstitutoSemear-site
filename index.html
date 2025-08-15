@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/6206051bb0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="imagex/png" href="src/images/logo_instituosemear.ico">
+    <title>Instituto Semear - ONG</title>
+    
+    <style type="text/tailwindcss">
+
+        @font-face {
+            font-family: "LibreFranklin-Bold";
+            src: url("src/LibreFranklin/LibreFranklin-Bold.ttf") format("opentype");
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "LibreFranklin";
+            src: url("src/LibreFranklin/LibreFranklin-Regular.ttf") format("opentype");
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "LibreFranklin-Medium";
+            src: url("src/LibreFranklin/LibreFranklin-Medium.ttf") format("opentype");
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @theme{
+            --font-lf: "LibreFranklin", sans-serif;
+            --font-lf-bold: "LibreFranklin-Bold", sans-serif;
+            --font-lf-md: "LibreFranklin-Medium", sans-serif;
+        }
+
+        @theme {
+            --color-primary: #9FB41D;
+            --color-secondary: #587139;
+            --color-text: #ffffff;
+            --color-secondaryText: #000000;
+            --color-terciaryText: #454545;
+            --color-quartenaryText: #495E2E;
+            --color-darkBackground: #252B42;
+            --color-hover: #CCCFAE;
+        }
+
+        @theme{
+            --color-shadow: #454545;
+        }
+
+        @layer base {
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+        <div class="flex justify-center items-center bg-primary w-full h-[12vh]">
+            <div class="justify-center">
+                <a href="#"><img src="src/images/InstitutoSemear-logo.png" alt="" class="h-[12vh]"></a>
+                <h1 class="hidden"><a href="#">Instituto Semear ONG</a></h1>
+            </div>
+
+            <div class="absolute right-4 top-4 text-text max-sm:right-100000">
+                <div class="w-45 flex justify-between">
+                    <i class="fa-brands fa-instagram text-3xl"></i>
+                    <i class="fa-brands fa-github text-3xl"></i>
+                    <a href="https://www.linkedin.com/in/ana-vit%C3%B3ria-gomes-dev/"><i class="fa-brands fa-linkedin text-3xl"></i></a>
+                    <i class="fa-brands fa-whatsapp text-3xl"></i>
+                </div>
+            </div>
+        </div>
+
+        <nav class="bg-secondary w-full h-[7vh] flex justify-center items-center">
+            <div class="flex justify-between items-center min-w-[750px] max-w-[900px] w-1/2">
+                <ul class="w-full flex justify-between text-text font-lf text-[1.3rem] max-md:left-[-1000rem] max-md:absolute">
+                    <li class="flex justify-center items-center"><a href="#" class="transition duration-200 hover:text-hover">Home</a></li>
+                    <li class="flex justify-center items-center"><a href="#" class="transition duration-200 hover:text-hover">Histórico</a></li>
+                    <li class="flex justify-center items-center"><a href="#" class="transition duration-200 hover:text-hover">Quem somos</a></li>
+                    <li class="flex justify-center items-center"><a href="#" class="transition duration-200 hover:text-hover">Seja um voluntário</a></li>
+                    <li class="flex justify-center items-center"><a href="#" class="transition duration-200 hover:text-hover">Projetos</a></li>   
+                </ul>
+                <div id="hamburguer" class="flex flex-col items-center justify-between absolute left-5 h-6 md:hidden">
+                    <div class="bg-white h-1 w-10"></div>
+                    <div class="bg-white h-1 w-10"></div>
+                    <div class="bg-white h-1 w-10"></div>
+                </div>
+                <div class="flex justify-end items-center w-40 font-lf-bold">
+                    <button class="flex items-center justify-center text-text font-lf-bold rounded-xl bg-primary w-22 border-[3px] border-white border-solid max-md:right-5 max-md:absolute cursor-pointer transition duration-200 hover:brightness-80">Doe</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="w-full h-[550px]">
+
+        <div class="w-full h-[550px] relative flex justify-center items-center">
+            <img src="src/images/banner-home.jpeg" alt="" class="brightness-40 saturation-200 contrast-80 object-cover w-full h-[550px]">
+            
+            <div class="absolute text-text w-[850px] max-[886px]:w-4/5">
+                <h1 class="text-[2.5rem] font-lf-bold mb-3 max-[886px]:text-[1.7rem]">Instituto Semear</h1>
+                <p class="text-[2rem] font-lf-md leading-[2.5rem] max-[886px]:text-[1.2rem] max-[886px]:leading-[1.5rem] ">Uma Organização Não Governamental que tem como missão o reflorestamento e a preservação da natureza.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="w-full flex justify-center">
+
+    <div class="h-auto mt-[80px] mb-[80px] grid grid-cols-4 gap-10 max-[1660px]:grid-cols-2 max-[1660px]:gap-15 max-[886px]:grid-cols-1 max-[886px]:place-items-center max-[886px]:w-4/5">
+        
+        <div class="w-95 h-auto font-lf-md text-secondaryText text-[2.25rem] flex flex-col max-[886px]:w-4/5">
+            <div class="w-95 mb-[50px] max-[886px]:w-1/1">
+                <p class="max-[886px]:text-[1.8rem]">Já plantamos mais de 700 árvores pelo Brasil</p>
+            </div>
+
+            <div class="w-95 max-[886px]:w-1/1">
+                <p class="max-[886px]:text-[1.8rem]">Já ajudamos 50 espécies debilitadas e ameaçadas de extinção</p>
+            </div>
+        </div>
+
+        <!--Seção de cards-->
+
+             <div class="w-100 h-110 rounded-4xl relative flex justify-center overflow-hidden max-[480px]:w-1/1">
+                <img src="src/images/card1.png" alt="" class="w-1/1 h-1/1 object-cover brightness-60">
+
+                <div class="absolute text-text w-auto top-10 font-lf-bold text-2xl text-center">
+                    <p>Precisamos da sua ajuda para continuar a nossa missão</p>
+                </div>
+                
+                <div class="absolute text-text w-4/5 bottom-10 font-lf-md text-xl max-[886px]:w-3/5">
+                    <button class="bg-primary p-2 rounded-[10px] w-1/1 shadow-2xl cursor-pointer transition duration-200 hover:brightness-80">Faça uma doação</button>                    
+                </div>
+            </div>
+
+             <div class="w-100 h-110 rounded-4xl relative flex justify-center overflow-hidden max-[480px]:w-1/1">
+                <img src="src/images/card2.jpg" alt="" class="w-100 h-110 object-cover brightness-60">
+
+                <div class="absolute text-text w-4/5 top-10 font-lf-bold text-2xl text-center">
+                    <p>Saiba mais sobre os nossos trabalhos</p>
+                </div>
+                
+                <div class="absolute text-text w-4/5 bottom-10 font-lf-md text-xl">
+                    <button class="bg-primary p-2 rounded-[10px] w-1/1 shadow-2xl cursor-pointer transition duration-200 hover:brightness-80">Conheça nossos projetos</button>                    
+                </div>
+                
+            </div>
+
+            <div class="w-100 h-110 rounded-4xl relative flex justify-center overflow-hidden max-[480px]:w-1/1">
+                <img src="src/images/card3.jpg" alt="" class="w-100 h-110 object-cover object-right brightness-60">
+
+                <div class="absolute text-text w-auto top-10 font-lf-bold text-2xl text-center">
+                    <p>Conheça a nossa instituição</p>
+                </div>
+                
+                <div class="absolute text-text w-4/5 bottom-10 font-lf-md text-xl">
+                    <button class="bg-primary p-2 rounded-[10px] w-1/1 shadow-2xl cursor-pointer transition duration-200 hover:brightness-80">Quem somos</button>                    
+                </div>
+                
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer class="bg-primary h-auto w-full flex justify-center items-center flex-col">
+        <div class="h-auto w-[1200px] max-[1230px]:w-[920px] flex justify-center items-start mt-5 mb-5 max-[940px]:items-start max-[940px]:w-[600px] max-[800px]:w-[90%]">
+            <div class=" flex mr-2 justify-center w-2/5 max-[940px]:mr-5">
+                <a href="#"><img src="src/images/InstitutoSemear-logo.png" alt="" class="h-25 max-[940px]:h-20 max-[940px]:object-contain"></a>
+                <h1 class="hidden"><a href="#">Instituto Semear ONG</a></h1>
+            </div> 
+        
+            <div class="flex justify-between h-25 w-4/5 flex-col max-[1230px]:h-auto max-[800px]:w-2/4">
+                <ul class="w-full flex justify-between text-text font-lf text-[1.3rem] flex-wrap max-md:w-auto max-[800px]:flex max-[800px]:flex-col max-[940px]:grid max-[940px]:grid-cols-2">
+                    <li class="flex justify-center items-start max-[940px]:justify-start max-[940px]:mb-3"><a href="#" class="transition duration-200 hover:text-hover">Home</a></li>
+                    <li class="flex justify-center items-start max-[940px]:justify-start max-[940px]:mb-3"><a href="#" class="transition duration-200 hover:text-hover">Histórico</a></li>
+                    <li class="flex justify-center items-start max-[940px]:justify-start max-[940px]:mb-3"><a href="#" class="transition duration-200 hover:text-hover">Quem somos</a></li>
+                    <li class="flex justify-center items-start max-[940px]:justify-start max-[940px]:mb-3"><a href="#" class="transition duration-200 hover:text-hover">Seja um voluntário</a></li>
+                    <li class="flex justify-center items-start max-[940px]:justify-start"><a href="#" class="transition duration-200 hover:text-hover">Projetos</a></li>   
+                </ul>
+
+
+                <div class="text-text flex justify-between flex-wrap">
+                    <div class="flex items-start mt-3 max-[940px]:mb-3 max-[550px]:flex-col">
+                        <h1 class="w-2/4 font-lf-bold text-2xl">Contato</h1>
+                        <div class="grid gap-4 grid-cols-4 max-[420px]:grid max-[420px]:grid-cols-2">
+                            <i class="fa-brands fa-instagram text-3xl"></i>
+                            <i class="fa-brands fa-github text-3xl"></i>
+                            <i class="fa-brands fa-linkedin text-3xl"></i>
+                            <i class="fa-brands fa-whatsapp text-3xl"></i>
+                        </div>
+                    </div>
+                    
+
+                    <div class="text-text flex items-center mt-3 max-[940px]:mt-0 max-[800px]:flex-wrap">
+                        <h1 class="font-lf-bold text-xl mr-3">Sede</h1>
+                        <div class="w-1/1 flex justify-between font-lf-md">
+                            <p class="w-1/1 ">BioParque - São Cristóvão, Rio de Janeiro</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        
+    </footer>
+
+</body>
+</html>
