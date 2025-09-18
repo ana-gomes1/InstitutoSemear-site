@@ -11,6 +11,7 @@ O site Instituto Semear é um caso de estudo e foi um projeto do qual realizei n
 ## Funcionalidades
 - Página responsiva (se adapta a celular e desktop)
 - Menu de navegação dinâmico
+ <br /> <br />
 
 ## Linguagens e Ferramentas
 O site foi construído quase exclusivamente com Tailwind, um framework de CSS que visa facilitar a estilização, além de outras linguagens e ferramentas como HTML, CSS e Figma para a construção do design do site.
