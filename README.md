@@ -14,10 +14,17 @@ O site Instituto Semear é um caso de estudo e foi um projeto do qual realizei n
  <br /> <br />
 
 ## Linguagens e Ferramentas
-O site foi construído quase exclusivamente com Tailwind, um framework de CSS que visa facilitar a estilização, além de outras linguagens e ferramentas como HTML, CSS e Figma para a construção do design do site.
+
+- **HTML**: Estruturação do site
+- **CSS**: Estilização e implementação do design das páginas
+- **Tailwind CSS**: Framework para estilização do site com o uso de classes utilitárias
+- **Figma**: Desenvolvimento do Design do Site
  <br /> <br />
 
+<div align="center">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="50"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" height="50"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" height="50"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" height="50" />
+</div>
+
 
 
